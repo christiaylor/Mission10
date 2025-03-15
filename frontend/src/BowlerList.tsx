@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { bowler } from './types/bowler';
-import { team } from './types/bowler';
 
 function BowlerList() {
   const [bowlers, setBowlers] = useState<bowler[]>([]);
